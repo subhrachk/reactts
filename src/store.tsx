@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import CounterReducer from "./componenets/Shared/Counter/CounterReducer";
+import BlogReducer from "./componenets/Shared/Blogs/BlogReducer";
 
 
 const store = configureStore({
     reducer : {
-        Counter : CounterReducer
+        Counter : CounterReducer,
+        Blogs : BlogReducer
     }
 });
 

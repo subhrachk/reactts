@@ -6,6 +6,7 @@ export const Blogs = () => {
   return (
     <div>
         <NewBlogs />
+        <hr />
         <BlogDetails/>
     </div>
   )
